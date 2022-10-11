@@ -1,0 +1,39 @@
+
+body {
+    background-color: #f5f3e7;
+    font-family: 'Sora', monospace;
+    padding: 0 px;
+}
+h1{
+    text-align: right;
+    color: #cd5e3c;
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+h4{
+    text-align: left;
+    color: hsl(14, 59%, 52%);
+    font-size: 50px;
+    font-style: italic;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.text {
+    padding: 20px;
+} 
+
+
+img {
+    max-width: 1200px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }

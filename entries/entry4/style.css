@@ -1,0 +1,43 @@
+body {
+    background-color: #f5f3e7;
+    font-family: wayfinder-cf, serif;
+    padding: 80px;
+}
+
+h1{
+    text-align: left;
+    color: #844a7d;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 100;
+    margin: 0px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0.1px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+
+
+
+  img {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}

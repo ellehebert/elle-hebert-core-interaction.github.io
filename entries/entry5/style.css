@@ -1,0 +1,39 @@
+body {
+    background-color: #f5f3e7;
+    font-family: wayfinder-cf, serif;
+    padding: 80px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0.1px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+div#imageContainer {
+    height: 160px;  
+    vertical-align: bottom;
+    display: table-cell;
+}
+
+
+  img {
+    max-width: 100%;
+    padding-left: 10px;
+    padding-bottom: 10px;
+
+}
