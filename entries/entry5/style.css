@@ -1,39 +1,33 @@
 body {
     background-color: #f5f3e7;
     font-family: wayfinder-cf, serif;
-    padding: 80px;
+    padding-left: 300px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 }
 
+
+img {
+  max-width: 79%;
+  padding-left: 30px;
+  padding-bottom: 60px;
+}
 
 
 * {
-  box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .column {
-  float: left;
-  width: 25%;
-  padding: 0.1px;
+float: left;
+width: 25%;
+padding-left: 5px;
 }
 
 /* Clearfix (clear floats) */
 .row::after {
-  content: "";
-  clear: both;
-  display: table;
+content: "";
+clear: both;
+display: table;
 }
 
-
-div#imageContainer {
-    height: 160px;  
-    vertical-align: bottom;
-    display: table-cell;
-}
-
-
-  img {
-    max-width: 100%;
-    padding-left: 10px;
-    padding-bottom: 10px;
-
-}

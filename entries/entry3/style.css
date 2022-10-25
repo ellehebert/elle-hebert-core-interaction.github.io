@@ -1,61 +1,79 @@
 
 body {
     background-color: #f5f3e7;
-    font-family: wayfinder-cf, serif;
-    padding: 80px;
-}
-h1{
-    text-align: left;
-    color: #488e6b;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 100;
-    margin: 0px;
-}
-h2{
-    text-align: left;
-    color: #488e6b;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 300;
-    margin: 0px;
-}
-h3{
-    text-align: left;
-    color: #488e6b;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 400;
-    margin: 0px;
-}
-h4{
-    text-align: left;
-    color: #488e6b;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 600;
-    margin: 0px;
-}
-h5{
-    text-align: left;
-    color: #488e6b;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 700;
-    margin: 0px;
-}
-h6{
-    text-align: left;
-    color: #488e6b;
-    font-size: 110px;
-    font-style: normal;
-    font-weight: 800;
-    margin: 0px;
+    font-family: katarine-web,sans-serif;
+    padding: 60px;
 }
 
-img {
-    max-width: 100%;
-    float: center;
-    padding-left: 0px;
-    padding-bottom: 30px;
+h2{
+    text-align: center;
+    color: #f3baa4;
+    font-family: katarine-web,sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: x-large;
+    text-transform: uppercase;
+    margin: -10px;
+    padding-left: 60px;
 }
+
+.title-word {
+    animation: color-animation 4s linear infinite;
+  }
+  
+  .title-word-1 {
+    --color-1: #f3baa4;
+    --color-2: #f5f3e7;
+    --color-3: #f3baa4;
+  }
+  
+  .title-word-2 {
+    --color-1: #f3baa4;
+    --color-2: #f5f3e7;
+    --color-3: #f3baa4;
+  }
+  
+  .title-word-3 {
+    --color-1: #f3baa4;
+    --color-2: #f3baa4;
+    --color-3: #f5f3e7;
+  }
+  
+  .title-word-4 {
+    --color-1: #f5f3e7;
+    --color-2: #f3baa4;
+    --color-3: #f5f3e7;
+  }
+  
+  @keyframes color-animation {
+    0%    {color: var(--color-1)}
+    32%   {color: var(--color-1)}
+    33%   {color: var(--color-2)}
+    65%   {color: var(--color-2)}
+    66%   {color: var(--color-3)}
+    99%   {color: var(--color-3)}
+    100%  {color: var(--color-1)}
+  }
+  
+  /* Here are just some visual styles. 🖌 */
+  
+  .container {
+    display: grid;
+    place-items: center;  
+    text-align: center;
+    height: 20vh
+  }
+  
+  .title {
+    font-family: katarine-web,sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    font-style: normal;
+    text-transform: uppercase;
+  }
+
+  img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }

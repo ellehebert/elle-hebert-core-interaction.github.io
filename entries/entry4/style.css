@@ -8,11 +8,24 @@ h1{
     text-align: left;
     color: #844a7d;
     font-size: 100px;
-    font-style: normal;
-    font-weight: 100;
+    font-family: katarine-web,sans-serif;
+    font-weight: 600;
+    font-style: italic;
     margin: 0px;
     padding-left: 10px;
     padding-bottom: 10px;
+}
+
+h2{
+  text-align: right;
+  color: #844a7d;
+  font-size: 100px;
+  font-family: katarine-web,sans-serif;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0px;
+  padding-right: 60px;
+  padding-bottom: 10px;
 }
 
 * {
@@ -37,7 +50,7 @@ h1{
 
 
   img {
-    max-width: 100%;
+    max-width: 80%;
     padding-left: 10px;
     padding-bottom: 10px;
 }

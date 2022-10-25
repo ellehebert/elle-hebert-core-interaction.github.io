@@ -1,0 +1,37 @@
+body {
+    background-color: #2c2c2c;
+    font-family: wayfinder-cf, serif;
+    padding: 100px;
+}
+
+h1{
+    text-align: left;
+    color: #f5f3e7;
+    font-family: katarine-web,sans-serif;
+    font-weight: 1200;
+    font-style: normal;
+    margin: 0px;
+}
+
+h2{
+    text-align: left;
+    color: #f5f3e7;
+    font-family: katarine-web,sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 0px;
+}
+
+h3{
+    text-align: left;
+    color: #f5f3e7;
+    font-family: katarine-web,sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    margin: 0px;
+}
+
+img {
+    display: -webkit-box;
+    margin-left: auto;
+    }
