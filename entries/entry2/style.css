@@ -8,9 +8,9 @@ body {
 h1{
   text-align: right;
   color: #488e6b;
-  font-family: katarine-web,sans-serif;
+  font-family: katarine-web, sans-serif;
   font-weight: 400;
-  font-size: 200;
+  font-size: 200px;
   font-style: normal;
   margin: 0px;
 }
@@ -18,9 +18,9 @@ h1{
 h2{
   text-align: right;
   color: #488e6b;
-  font-family: katarine-web,sans-serif;
+  font-family: katarine-web, sans-serif;
   font-weight: 600;
-  font-size: 100;
+  font-size: 100px;
   font-style: italic;
   margin: 0px;
 }
